@@ -98,7 +98,7 @@ Pod::Spec.new do |spec|
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
-  spec.source = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFrameworkWithSSL.framework.zip" }
+  spec.source = { :http => "https://media.githubusercontent.com/media/moxcomic/AriaIJKMediaFramework/master/IJKMediaFramework.framework.zip" }
   spec.vendored_frameworks = 'IJKMediaFramework.framework'
   spec.framework = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
   spec.libraries = "bz2", "z", "stdc++"
